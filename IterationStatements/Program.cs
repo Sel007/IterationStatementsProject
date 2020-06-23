@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 
 namespace IterationStatements
 {
@@ -7,7 +8,10 @@ namespace IterationStatements
     {
         static void Main(string[] args)
         {
-            //TODO
+            List<int> numbers = new List<int>();
+            int a = 0;
+
+            //DONE
 
             //Create a List called "numbers"
             //Create a variable of type int with an initializer of 0
@@ -15,17 +19,24 @@ namespace IterationStatements
 
 
             // Create a do-while loop
+            do
             {
+                a++;
+                numbers.Add(a);
                 // Increment your variable by 1
                 // Then add your variable to "numbers"
             }
-            // While your variable is less than 100
+            while (a < 100);
 
+            // While your variable is less than 100
 
 
             // Create a while loop
             // While your variable is less than 200
+            while (a < 200)
             {
+                a++;
+                numbers.Add(a);
                 // Increment your variable by 1
                 // Then add your variable to "numbers"
             }
@@ -35,8 +46,19 @@ namespace IterationStatements
             // Create a foreach loop
             // Write your variable to the console
 
+            foreach (int num in numbers)
+            {
+                Console.WriteLine(num);
+            }
+            Console.WriteLine();
             Console.WriteLine("");
             Console.WriteLine("Decrease:");
+            Console.WriteLine();
+
+            for (int b = 199; b <= numbers.Count && b >= 0; b--)
+            {
+                Console.WriteLine(numbers[b]);
+            }
 
             // Create a for loop
             // in your initializer set the value of i to 199
