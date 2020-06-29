@@ -55,11 +55,6 @@ namespace IterationStatements
             Console.WriteLine("Decrease:");
             Console.WriteLine();
 
-            for (int b = 199; b <= numbers.Count && b >= 0; b--)
-            {
-                Console.WriteLine(numbers[b]);
-            }
-
             // Create a for loop
             // in your initializer set the value of i to 199
             // in your conditional, as long as i is less than or equal to the length of "numbers"
@@ -68,6 +63,82 @@ namespace IterationStatements
             {
                 // Write to the console "numbers" at index i
             }
+
+            for (int b = 199; b <= numbers.Count && b >= 0; b--)
+            {
+                Console.WriteLine(numbers[b]);
+            }
+
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine($"{i}");
+            }
+
+            for (int i =0; i < 5; i++)
+            {
+                Console.WriteLine($"{i}");
+            }
+
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine($"{i}");
+            }
+
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine($"{i}");
+            }
+
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine($"{i}");
+            }
+
+            for (int i = 0; i <5; i++)
+            {
+                Console.WriteLine($"{i}");
+            }
+
+            for (int i =0; i < 5; i++)
+            {
+                Console.WriteLine($"{i}");
+            }
+
+            for (int i =0; i < 5; i++)
+            {
+                Console.WriteLine($"{i}");
+            }
+
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine($"{i}");
+            }
+
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine($"{i}");
+            }
+
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine($"{i}");
+            }
+
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine($"{i}");
+            }
+
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine($"{i}");
+            }
+
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine($"{i}");
+            }
+
         }
     }
 }
